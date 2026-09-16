@@ -1,4 +1,6 @@
 {
   "name": "HA Battery Status Monitor Card",
-  "homeassistant": "2026.6.0"
+  "filename": "battery-monitor-card.js",
+  "homeassistant": "2026.6.0",
+  "render_readme": true
 }
