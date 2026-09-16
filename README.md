@@ -213,7 +213,7 @@ Clicking a status opens the complete device list for that status directly in the
 
 ## Card picker · Karten-Auswahl
 
-Die Karte registriert sich über `window.customCards` und stellt damit Name, Beschreibung und Dokumentations-Link für den Home-Assistant-Karten-Picker bereit. Home Assistant dokumentiert diese Registrierung offiziell für Custom Cards. citeturn0search1
+Die Karte registriert sich über `window.customCards` und stellt damit Name, Beschreibung und Dokumentations-Link für den Home-Assistant-Karten-Picker bereit.
 
 Seit Home Assistant 2026.6 kann eine Custom Card zusätzlich über `getEntitySuggestion()` für passende Entities im Community-Bereich des Karten-Pickers vorgeschlagen werden. Die Battery Status Monitor Card nutzt diese Funktion gezielt für:
 
@@ -221,7 +221,7 @@ Seit Home Assistant 2026.6 kann eine Custom Card zusätzlich über `getEntitySug
 sensor.ha_battery_status_monitor_gesamt
 ```
 
-Dadurch kann Home Assistant beim Erstellen einer Karte eine passende Konfiguration für diesen Gesamt-Sensor vorschlagen. citeturn0search0
+Dadurch kann Home Assistant beim Erstellen einer Karte eine passende Konfiguration für diesen Gesamt-Sensor vorschlagen.
 
 ## Theming · Themes
 
